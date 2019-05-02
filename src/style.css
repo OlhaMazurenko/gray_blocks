@@ -6,7 +6,7 @@
 main {
   display: flex;
   padding: 20px;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 article {
@@ -19,4 +19,9 @@ article {
 
 article:last-child {
   margin-right: 0;
+}
+
+.align {
+  display: flex;
+  flex-wrap: wrap;
 }
